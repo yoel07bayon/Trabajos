@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+div{
+	border: 1px solid blue;
+}
+
+.contenedor-flexbox{
+	border: 1px solid red;
+	height: 300px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.caja{
+	flex: 24%;
+	margin: 5px;
+	border-radius: 10px
+	
+}
+
+.caja img{
+	width: 120px;
+}
+.menu{
+	display: flex;
+	justify-content: space-between;
+}
