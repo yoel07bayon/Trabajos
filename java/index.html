@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JavaScipts</title>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<script type="scripts.js"></script>
+</head>
+<body>
+	<table>
+		<tr>
+		<td colspan="2"><center>Verificar si es mayor de edad</center></td>
+	</tr>
+    <tr>
+		<td>Ingrese una edad</td>
+		<td><input type="number" id="edad"></td>
+	</tr>
+	<tr>
+		<td colspan="2"><center><button onclick="calcular()">Verificar</button></center></td>
+	</tr>
+	<tr>
+		<td colspan="2">Resultado:<h4 id="salida"></h4></td>
+	</tr>
+	</table>
+</body>
+</html>
+
+<script>
+	function calcular(){
+	edad=document.getElemenById("edad").value;	
+	
+    var mensaje;
+    if(edad.length<1){
+	if (edad>=18) {
+		 mensaje="MAYOR DE EDAD";
+		 document.getElemenById("salida").style.color="green";
+
+	}else{
+	     mensaje="MENOR DE EDAD"
+	     document.getElemenById("salida").style.color="red";
+	}
+	}else{
+		alert="Ingrese un edad"
+		edad=document.getElemenById("edad").focus();
+	     
+	 }
+	console.long(edad);
+	console.long(mensaje);
+	document.getElemenById("salida").innerHTML;
+}
+</script>

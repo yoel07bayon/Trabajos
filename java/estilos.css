@@ -1,0 +1,22 @@
+.mayor{
+	background-color: gree;
+}
+
+.menor{
+	background-color: red;
+}
+
+table{
+	border: solid 1px blue;
+	font-family: arial;
+	padding: 25px,
+	box-shadow: 5px 5px 5px black; 
+}
+
+button{
+	margin: 20px;
+	border: solid 1px blue;
+	background-color: white;
+	padding: 10px 20px;
+}
+
