@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.contenido{
+	background-color: green;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: ubuntu;
+	font-style: 3em;
+}
+.caja{
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 30px;
+	box-shadow: 0px 0px 10px black;
+	flex-wrap: wrap;
+}
+.caja input{
+    font-size: 1em;
+    background-color: rgba(225,225,225,0);
+    
+    border-bottom: 2px solid rgba(0,0,0,0.8);
+    margin-left: 40px;
+    font-family: sans-serif;
+}
+.caja #Boton{
+	border:none;
+	background-color: #0f0c29;
+	color: while;
+	padding: 10px 20px;
+	margin-left: 300px;
+
+}
