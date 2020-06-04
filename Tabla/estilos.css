@@ -1,0 +1,63 @@
+body{
+    background-color: #302F11; /RGB(Red Green Blue)/
+}
+header{
+    background-color: #939234;
+    height: 150px;
+    width: 100%;
+    margin: 0 auto;
+}
+nav{
+    background-color: #BAB841;
+    height: 40px;
+    width: 100%;
+}
+section{
+    background-color: #D8D789
+;
+    height: 600px;
+    width: 100%;
+}
+footer{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    color: white;
+}
+.menuIzquierda{
+    background-color: white;
+    height: 600px;
+    width: 200px;
+    position: absolute;
+    left: 8px;
+}
+.menuDerecha{
+    background-color: white;
+    position: absolute;
+    height: 600px;
+    width: 200px;
+    right: 8px;
+}
+.texto{
+    left: 230px;
+}
+#logo{
+    width: 160px;
+    position: absolute;
+    left: 30px;
+    top: 10px;
+}
+#animado{
+    width: 150px;
+    position: absolute;
+    right: 20px;
+    bottom: 100px;
+
+}
+#Articulo1{
+    position: absolute;
+    bottom: 600px;
+    left: 250px;
+    width: 490px;
+    font-family: sans-serif;
+}
