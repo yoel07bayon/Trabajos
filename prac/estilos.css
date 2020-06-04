@@ -1,0 +1,286 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Fjalla One', sans-serif;
+	background: #f2f2f2;
+}
+
+header{
+	margin-bottom: 80px;
+	
+}
+
+main{
+	width: 100%;
+	height: auto;
+	margin-bottom: 80px;
+}
+
+ .imagen1 img{
+        width: 70px;
+        height: 75px;
+        margin-left: 109px;
+}
+
+ .texto1{
+        text-align: center;
+        margin-left: -700px;
+        color: #969fa0;
+}
+
+.primero p{
+	text-align: center;
+    margin-left: -700px;
+    color: #969fa0;
+}
+
+
+ .imagen2 img{
+    width: 70px;
+    height: 75px;
+    margin-left: 355px;
+}
+
+ .texto2{
+    text-align: center;
+    margin-left: -200px;
+    color: #969fa0;
+}
+
+.segundo p{
+	text-align: center;
+    margin-left: -200px;
+    color: #969fa0;
+}
+
+ .segundo{
+        margin-top: -130px;
+}
+
+ .imagen3 img{
+        width: 70px;
+        height: 75px;
+        margin-left: 603px;
+}
+
+ .texto3{
+        text-align: center;
+        margin-left: 270px;
+        color: #969fa0;
+}
+
+ .tercero{
+        margin-top: -130px;
+}
+
+.tercero p{
+	text-align: center;
+        margin-left: 270px;
+        color: #969fa0;
+}
+
+ .imagen4 img{
+        width: 70px;
+        height: 75px;
+        margin-left: 800px;
+}
+
+ .texto4{
+        text-align: center;
+        margin-left: 700px;
+        color: #969fa0;
+}
+
+ .cuarto{
+        margin-top: -130px;
+}
+
+.cuarto p{
+	text-align: center;
+        margin-left: 700px;
+        color: #969fa0;
+}
+
+footer{
+	color: white;
+	background-color: #1d2c4d;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center; 
+}
+
+a{
+	text-decoration: none;
+}
+
+.espaciado{
+	padding: 0 10%;
+}
+
+.nav1{
+	padding: 20px 0;
+}
+
+.contenedor{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo{
+    flex: 0 1 auto;
+}
+
+.enlaces{
+	 flex: 0 1 auto;
+}
+
+.enlaces a{
+	color: blue;
+	margin: 0 25px;
+}
+
+.contenedor img{
+	width: 100%;
+	max-width: 150px;
+}
+
+.fondo{
+	background: url(imagenes/fondo2.png);
+	background-attachment: contain;
+	background-position: fixed;
+	background-size: cover;
+}
+
+.registro{
+	padding: 22% 0;
+	color: yellow;
+}
+
+.textos{
+    width: 50%;
+    height: auto;
+    color: red;
+}
+
+.botones button{
+    text-decoration: none;
+}
+
+.bot1{
+	background-color: #ec2552;
+	color: white;
+	border-color: white;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+.bot2{
+	background-color: transparent;
+	border-color: #ec2552;
+    color: #ec2552;
+    padding: 10px;
+	border-radius: 20px;
+}
+
+.contac{
+	margin: 40px 0 20px 0;
+	display: flex;
+	border-bottom: 1px solid white;
+}
+
+.contac div{
+	margin: 0 10px;
+}
+
+.contac h3,h5{
+	margin: 10px 0;
+}
+
+.redes{
+	margin: 20px 0;
+	border-bottom: 1px solid white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.redes div{
+    margin: 0 30px;
+
+}
+
+.fb{
+   padding: 20px;
+   background-color: red;
+   flex:0 1 auto;
+}
+
+.tw{
+	padding: 20px;
+	background-color: red;
+   flex:0 1 auto;
+}
+
+.in{
+	padding: 20px;
+	background-color: red;
+	flex:0 1 auto;
+}
+
+.prin{
+	padding: 20px;
+	background-color: red;
+	flex:0 1 auto;
+}
+
+.polit{
+	margin: 20px 0 40px 0;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	text-align: center;
+}
+
+.polit div{
+	margin: 20px 0;
+}
+
+.priv{
+	flex: 1 1 20%;
+}
+
+.aso{
+	flex: 1 1 20%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.aso div{
+	flex: 0 1 auto;
+	background-color: red;
+	margin: 0 10px;
+	padding: 10px;
+}
+
+.log1{
+	border-right: 1px solid white;
+}
+
+.condi{
+	flex: 1 1 20%;
+}
+
+.cc{
+	flex: 1 1 100%;
+}
+
+.fb{
+	width: 5px;
+
+}
