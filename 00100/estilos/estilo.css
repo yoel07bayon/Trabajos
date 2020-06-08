@@ -1,0 +1,220 @@
+.principal{
+	background-color: #132140;
+	background-image: url("../imagenes/fondo2.png");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+	padding: 3%;
+}
+
+.textoPrincipal{
+	text-align: center;
+	margin-bottom: 150px;
+	font-size: 2em;
+}
+body{
+	color: black;
+	font-family: 'Anton', sans-serif;
+}
+.textoPrincipal >img{
+	height: 200px;
+	width: 390px;
+	padding: 3%;
+}
+.contenedorPrincipal{
+	padding: 3%;
+	width: 65%;
+	height: 100vh;
+	background-image: url("../imagenes/img2.jpg");
+	background-size: cover;
+	margin: auto;
+}
+.menu{
+	width: 100%;
+	position: relative;
+}
+.menu>img{
+	width: 100px;
+	height: 90px;
+}
+.menu>img, .navegacion>a, .menu>.boc, .navegacion{
+	display: inline-block;
+	margin: auto;
+}
+.botonEn, .botonPe{
+	display: block;
+	padding: 6px;
+	margin: 6px;	
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background-color: orange;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+a{
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 0.8em;
+}
+a:hover, #leermas:hover, #registrar:hover{
+	background-color: blue;
+}
+.navegacion>a{
+	margin: 1px;
+	padding: 15px; 
+	border-radius: 20px;
+}
+.boc{
+	position: absolute;
+	right: 20px;
+}
+.navegacion{
+	position: absolute;
+	right: 10%;
+}
+.contenidoBase{
+	width: 30%;
+	height: 350px;
+	padding: 3%;
+	padding-bottom: 100px;
+}
+.tetraRoja{
+	color: red;
+}
+#leermas, #registrar{
+	padding: 10px;
+	border-radius: 20px; 
+	border: solid 2px red; 
+	margin: 3px;
+}
+#leermas{
+	background-color: red;
+}
+#registrar{  
+	background-color: white;
+}
+.textoContenidoBase{
+	color: grey;
+	margin-bottom: 50px;
+}
+.contenidoBase>h2{
+	padding-top: 15%;
+	color:black; 
+	text-transform: uppercase;
+}
+.contenidoBase>img{
+	width: 150px;
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: orange;
+}
+.finPagina{
+	width: 100%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+.finPagina>img{
+	width: 70px;
+	height: 70px;
+	transition: 1s;
+	cursor: pointer;
+}
+
+#imagenBotom:hover{
+	transform: scale(1.3,1.3);
+}
+
+.contitulo{
+	width: 160px;
+	font-size: 1.3em;
+	font-weight: 700;
+}
+
+.loren2{
+	
+	width: 100%;
+	height: 200px;
+	background-color: orange;
+	margin: auto;
+	padding: 3px;
+	position: relative;
+
+}
+.lorenPrincipal1{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
+.loren{
+	padding: 3%;
+	width: 65%;
+	height: 90vh;
+	background-color: white;
+	margin: auto;
+	display: flex;
+	flex-direction: column;	
+}
+.nombreImgLorenPrin4, .nombreImgLorenPrin1{
+	width: 10%;
+	height: 100%;
+	background-color: #EC2552;
+}
+.nombreImgLorenPrin2, .nombreImgLorenPrin3{
+	width: 50%;
+	height: 100%;
+	border: solid 1px black;
+}
+.nombreImgLorenPrin5{
+	position: absolute;
+	width: 45%;
+	height: 100%;
+	border: solid 1px black;
+	background-color: white;
+	transform: scale(1.2,1.2);
+}
+.nombreImgLorenPrin6{
+	background-color: #EC2552;
+	height: 100%;
+	width: 40%;
+	transform: scale(1.1,1.1);
+	position: absolute;
+	right: 0px;
+}
+.subMenuP{
+	width: 95%;
+	height: 200px;
+	display: flex;
+	justify-content: space-around;
+	margin: auto;
+}
+.submenu{
+	width: 150px;
+	height: 100%;
+	background-color: white;
+	margin: 3px;
+	text-align: center;
+	padding: 20px;
+	box-shadow: 0 0 3px black;
+	cursor: pointer;
+	transition: box-shadow 1.2s, transform 1s;
+}
+.submenu:hover{
+	transform: scale(1.1,1.1);
+	box-shadow: 1px 1px 3px black;
+}
+.submenu>img{
+	width: 75px;
+	height: 75px;
+}
+.piePagina{
+	background-color: #131C2E;
+	width: 100%;
+	height: 50vh;
+}
